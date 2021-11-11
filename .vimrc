@@ -29,7 +29,7 @@ set shiftwidth=4        " 4 spaces for indentation
 
 " bells
 set noerrorbells        " turn off audio bell
-set visualbell          " but leave on a visual bell
+set novisualbell        " turn off visual bell
 
 " search
 set hlsearch            " highlighted search results
