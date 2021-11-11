@@ -24,8 +24,8 @@ highlight ColorColumn ctermbg=235 guibg=#001D2F
 set autoindent          " auto indenting
 set smartindent         " smart indenting
 set expandtab           " spaces instead of tabs
-set tabstop=2           " 2 spaces for tabs
-set shiftwidth=2        " 2 spaces for indentation
+set tabstop=4           " 4 spaces for tabs
+set shiftwidth=4        " 4 spaces for indentation
 
 " bells
 set noerrorbells        " turn off audio bell
