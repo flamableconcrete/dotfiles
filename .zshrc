@@ -35,7 +35,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-alias ll='ls -alF'
+alias ll='ls -lhF'
 
 # Starship
 eval "$(starship init zsh)"
