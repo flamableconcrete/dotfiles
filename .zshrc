@@ -61,5 +61,7 @@ alias ll='ls -lhF'
 eval "$(starship init zsh)"
 
 # asdf
- . /usr/local/opt/asdf/libexec/asdf.sh
- 
+. /usr/local/opt/asdf/libexec/asdf.sh
+
+# Poetry
+export PATH="$HOME/.local/bin:$PATH"
