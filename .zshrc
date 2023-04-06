@@ -22,7 +22,6 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_CUSTOM="$HOME/.zsh_custom"
 
 plugins=(
-  asdf
   brew
   dirhistory
   docker
@@ -46,7 +45,6 @@ zsh plugins of note
   * zsh-syntax-highlighting: syntax highlighting in the prompt
 
 Other packages to remember
-  * asdf: Language manager I'm trying to get used to
   * git-extras: A bunch of git aliases
 "
 
