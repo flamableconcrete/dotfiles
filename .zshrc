@@ -5,6 +5,9 @@
 # @author Jared Ondricek
 #
 
+# TODO: incorporate alias python='python3' from this stackoverflow post
+# https://stackoverflow.com/questions/18425379/how-to-set-pythons-default-version-to-3-x-on-os-x
+
 # Colors.
 unset LSCOLORS
 export CLICOLOR=1
