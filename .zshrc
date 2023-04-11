@@ -19,6 +19,9 @@ export HOMEBREW_AUTO_UPDATE_SECS=604800
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
 ZSH_CUSTOM="$HOME/.zsh_custom"
 
 plugins=(
@@ -28,6 +31,7 @@ plugins=(
   git
   git-extras
   pip
+  pyenv
   vagrant
   zsh-autosuggestions
   zsh-completions
@@ -60,3 +64,7 @@ eval "$(starship init zsh)"
 
 # Poetry
 export PATH="$HOME/.local/bin:$PATH"
+
+# pyenv
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
